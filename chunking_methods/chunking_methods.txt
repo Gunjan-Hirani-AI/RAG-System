@@ -1,0 +1,15 @@
+so in this file we will see what this folder (chunking_methods) will have :
+
+so to chunking we have split(chunk) the documetns , so for splitting we have three methods in langchain :
+
+1. Split by tokens - split_by_tokens.py
+2. Split by characters - split_by_characters.py
+3. Semantic / Meaning-based splitting (IMP) 
+
+testing chunk site : http://chunkviz.up.railway.app/
+
+what is best in splitting :
+
+CharacterTextSplitter < TokenTextSplitter < RecursiveCharacterTextSplitter 
+
+RecursiveCharacterTextSplitter text splitter is the recommended to use in production

@@ -1,0 +1,64 @@
+========================
+        RETRIEVERS
+========================
+
+
+User Query
+    |
+    |  (converted into embeddings)
+    v
++------------------+
+|    Retriever     |
++------------------+
+    |
+    |  searches
+    v
++------------------+
+|   Vector Store   |
++------------------+
+    |
+    |  returns
+    v
++----------------------------------+
+|         Similar Chunks           |
+|   (Relevant Context for Query)   |
++----------------------------------+
+
+
+=================================================================================================
+
+Similar Chunks + User Query
+                |
+                v
++---------------------------+
+|      Prompt Templates     |
++---------------------------+
+                |
+                v
++------------------+
+|       LLM        |
++------------------+
+                |
+                v
+           Final Answer
+
+=================================================================================================
+
+so there are two types of the retrievers okay , so retrievers are the use for retrievs data from vector db , it search your query embeddings into the vector store's embeddings and retriver the chunk ,
+
+A retriever takes a user query and returns the most relevant
+documents or chunks from a database.
+
+Now there are 2 types of retriever
+
+by data source (Wikipedia, Arxiv, PubMed, etc.) - arxiv.py
+By retrieval strategy (Similarity, MMR, MultiQuery, etc.)
+
+
+By data source : 
+
+When we talk about retrievers using data sources, we mean retrievers that
+fetch information from specific external sources or databases instead of your
+own vector store. These retrievers connect to APIs or datasets and return
+relevant documents for the query.
+
