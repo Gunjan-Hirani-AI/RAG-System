@@ -1,7 +1,5 @@
 # 🧠 PDF RAG Assistant: Insight AI Engine
 
-![RAG System Banner](file:///C:/Users/Gunjan%20Hirani/.gemini/antigravity/brain/da1dc82e-632c-4b81-9674-a75f35cd442e/rag_system_banner_1778411123706.png)
-
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rag-system-hrqfklcsd2t29aysirz6vu.streamlit.app/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![LangChain](https://img.shields.io/badge/Powered%20by-LangChain-green)](https://langchain.com/)
