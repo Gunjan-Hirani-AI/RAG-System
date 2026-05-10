@@ -1,0 +1,54 @@
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.egg-info/
+.dist/
+.build/
+.eggs/
+
+# --- Environment / Secrets (public repos) ---
+.env
+.env.*
+*.env
+.envrc
+secrets.toml
+credentials.json
+service_account*.json
+
+# --- Runtime / logs ---
+*.log
+logs/
+
+# --- Chroma / Vector DB persistence (generated/cached) ---
+chroma-db/
+embedding_&_storing_in_db/chroma-db/
+
+temp-chroma-db/
+
+# If you ever keep local cached model files
+**/.cache/
+**/cache/
+
+# --- Misc ---
+*.sqlite3
+
