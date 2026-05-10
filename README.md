@@ -1,14 +1,16 @@
 # 🧠 PDF RAG Assistant: Insight AI Engine
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rag-system-hrqfklcsd2t29aysirz6vu.streamlit.app/)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![LangChain](https://img.shields.io/badge/Powered%20by-LangChain-green)](https://langchain.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## 🚀 Overview
 **PDF RAG Assistant** is an AI-powered document intelligence system that transforms static PDFs into interactive conversations. Instead of manually searching through hundreds of pages, users can simply upload a document and ask natural language questions to instantly receive accurate, context-aware answers.
 
 The project is built using a modern Retrieval-Augmented Generation (RAG) architecture powered by LangChain, OpenAI Embeddings, ChromaDB, and GPT-5-Mini.
+
+---
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rag-system-hrqfklcsd2t29aysirz6vu.streamlit.app/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![LangChain](https://img.shields.io/badge/Powered%20by-LangChain-green)](https://langchain.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
